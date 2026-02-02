@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-dark text-white font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-dark font-semibold px-8 py-3 uppercase tracking-wider 
+           hover:bg-primary-light transition-colors duration-300;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary font-semibold px-8 py-3 uppercase tracking-wider 
+           hover:bg-primary hover:text-dark transition-colors duration-300;
+  }
+  
+  .section-title {
+    @apply text-primary uppercase tracking-[0.3em] text-sm mb-2;
+  }
+  
+  .section-heading {
+    @apply text-4xl md:text-5xl font-serif text-white mb-8;
+  }
+}
+
+/* Background pan animation */
+@keyframes pan {
+  0% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+  100% { background-position: 0% center; }
+}
+
+.animate-pan {
+  animation: pan 20s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c9a227;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4b442;
+}
