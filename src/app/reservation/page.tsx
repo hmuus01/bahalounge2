@@ -94,8 +94,7 @@ export default function ReservationPage() {
                   <span className="text-primary">{formData.time}</span>.
                 </p>
                 <p className="text-gray-400 mb-8">
-                  Our team will contact you within 2 hours to confirm your booking. 
-                  If you need immediate assistance, please call us.
+                  Please call us on 079 0881 2345 to confirm your reservation.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
@@ -387,7 +386,7 @@ export default function ReservationPage() {
                     </button>
 
                     <p className="text-gray-500 text-sm text-center">
-                      We&apos;ll confirm your reservation within 2 hours via email or phone.
+                      To make a reservation, please call us on 079 0881 2345.
                     </p>
                   </form>
                 </div>

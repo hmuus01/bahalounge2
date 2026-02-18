@@ -84,7 +84,7 @@ export default function BookingSection() {
                   <CheckCircle className="w-8 h-8 text-green-500" />
                 </div>
                 <h3 className="text-2xl font-serif text-white mb-2">Request Received!</h3>
-                <p className="text-gray-400 mb-6">We&apos;ll contact you within 2 hours to confirm.</p>
+                <p className="text-gray-400 mb-6">Please call us on 079 0881 2345 to confirm your reservation.</p>
                 <button 
                   onClick={() => setIsSubmitted(false)}
                   className="btn-outline"
