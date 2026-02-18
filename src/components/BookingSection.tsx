@@ -70,7 +70,7 @@ export default function BookingSection() {
               </div>
             </div>
             <div className="space-y-4 text-gray-400">
-              <p><strong className="text-white">Opening Hours:</strong> Mon-Thu 5-11pm | Fri-Sat 5pm-12am | Sun 12-10pm</p>
+              <p><strong className="text-white">Opening Hours:</strong> Mon-Thu 5-11pm | Fri-Sat 5pm-12am | Sun 5-10pm</p>
               <p><strong className="text-white">Phone:</strong> <a href="tel:07908812345" className="text-primary hover:underline">079 0881 2345</a></p>
               <p><strong className="text-white">Address:</strong> 2-6 Deancross Street, London E1 2QA</p>
             </div>
@@ -165,9 +165,8 @@ export default function BookingSection() {
                       onChange={handleChange}
                       className="w-full bg-dark-lighter border border-gray-700 px-4 py-3 text-white focus:border-primary focus:outline-none"
                     >
-                      <option value="12:00">12:00 PM</option>
-                      <option value="13:00">1:00 PM</option>
-                      <option value="14:00">2:00 PM</option>
+                      <option value="17:00">5:00 PM</option>
+                      <option value="17:30">5:30 PM</option>
                       <option value="18:00">6:00 PM</option>
                       <option value="19:00">7:00 PM</option>
                       <option value="19:30">7:30 PM</option>

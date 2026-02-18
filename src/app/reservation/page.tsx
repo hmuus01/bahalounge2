@@ -142,7 +142,7 @@ export default function ReservationPage() {
           <div className="flex flex-wrap justify-center gap-8 text-dark">
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5" />
-              <span className="font-medium">Mon-Thu 5-11pm | Fri-Sat 5pm-12am | Sun 12-10pm</span>
+              <span className="font-medium">Mon-Thu 5-11pm | Fri-Sat 5pm-12am | Sun 5-10pm</span>
             </div>
             <div className="flex items-center gap-2">
               <Users className="w-5 h-5" />
@@ -174,7 +174,7 @@ export default function ReservationPage() {
                     <h3 className="text-primary font-semibold mb-2">Opening Hours</h3>
                     <p className="text-gray-400">Mon-Thu: <span className="text-white">5pm - 11pm</span></p>
                     <p className="text-gray-400">Fri-Sat: <span className="text-white">5pm - 12am</span></p>
-                    <p className="text-gray-400">Sunday: <span className="text-white">12pm - 10pm</span></p>
+                    <p className="text-gray-400">Sunday: <span className="text-white">5pm - 10pm</span></p>
                   </div>
 
                   <div>
@@ -313,11 +313,8 @@ export default function ReservationPage() {
                           onChange={handleChange}
                           className="w-full bg-dark-lighter border border-gray-700 px-4 py-3 text-white focus:border-primary focus:outline-none transition-colors"
                         >
-                          <option value="12:00">12:00 PM</option>
-                          <option value="12:30">12:30 PM</option>
-                          <option value="13:00">1:00 PM</option>
-                          <option value="13:30">1:30 PM</option>
-                          <option value="14:00">2:00 PM</option>
+                          <option value="17:00">5:00 PM</option>
+                          <option value="17:30">5:30 PM</option>
                           <option value="18:00">6:00 PM</option>
                           <option value="18:30">6:30 PM</option>
                           <option value="19:00">7:00 PM</option>

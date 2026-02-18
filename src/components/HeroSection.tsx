@@ -11,7 +11,6 @@ export default function HeroSection() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/images/hero-video.mov" type="video/quicktime" />
         <source src="/images/hero-video.mp4" type="video/mp4" />
       </video>
       {/* Dark Overlay */}
